@@ -183,7 +183,7 @@ public class BlenderGUI extends JFrame{
             JOptionPane.showMessageDialog(this, "Licuadora llenada");
         });
 
-        JButton emptyButton = createButton("/Resources/imgs/IMGFill.png", 350, 250);
+        JButton emptyButton = createButton("/Resources/imgs/emptyyy.png", 350, 250);
         emptyButton.addActionListener(e -> {
             blender.Empty();
             updateGUI();
