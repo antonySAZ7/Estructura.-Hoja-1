@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BlenderGUI",
+            "request": "launch",
+            "mainClass": "BlenderGUI",
+            "projectName": "Estructura.-Hoja-1_249f999d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

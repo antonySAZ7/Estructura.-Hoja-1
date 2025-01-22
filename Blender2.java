@@ -1,14 +1,14 @@
 /*
- * Clase que implementa la interfaz de la licuadora
+ * Clase para pruebas de funcionamiento de intercambio
  */
-public class Blender implements IBlender {
+public class Blender2 implements IBlender {
     //Atributos
     private int speed;
     private boolean isFull;
 
     //Constructor
-    public Blender(){
-        this.speed = 0;
+    public Blender2(){
+        this.speed = 7;
         this.isFull = false;
     }
     //Metodos
@@ -25,7 +25,7 @@ public class Blender implements IBlender {
             speed++;
             System.out.println("velocidad aumentada a : " + speed);
         }else{
-            System.out.println("La velocidad de la licuadora esta en su maximo nivel, 10");
+            System.out.println("la licuadora ya esta a maxima potencia");
         }
     }
     @Override
@@ -41,7 +41,7 @@ public class Blender implements IBlender {
             speed =  speed - 1;
             System.out.println("La velocidad bajo a : "+ speed);
         }else{
-            System.out.println("La velocidad de la licuadora esta en su minimo nivel, 0");
+            System.out.println("La licuadora ya esta sin potencia");
         }
     }
     @Override
@@ -60,7 +60,7 @@ public class Blender implements IBlender {
         System.out.println("La licuadora esta llena");
     }else{
         isFull = true;
-        System.out.println("Ahora la licuadora esta llena");
+        System.out.println("licuadora llenada exitosamente");
     }
    } 
    @Override
@@ -73,7 +73,7 @@ public class Blender implements IBlender {
         return;
     }else{
     isFull= false;
-    System.out.println("La licuadora esta vacia");
+    System.out.println("licuadora vaciada exitosamente");
     }
    }
    @Override

@@ -1,12 +1,11 @@
 /*
- * Interfaz intercambiable con los metodos de la licuadora
+ * Interfaz para pruebas de funcionamiento de intercambios
  */
-public interface IBlender {
+public interface IblenderAlternate{
     void SpeedUp();
     boolean IsFull();
     void Fill();
     void Empty();
     void SpeedDown();
     int GetSpeed();
-    
 }
