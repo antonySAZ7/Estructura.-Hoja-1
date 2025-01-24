@@ -1,4 +1,7 @@
-/*
+/*HOJA DE TRABAJO 1
+*ANTONY SAZ 24710, LAZARO DIAZ 24713, JAVIER CHAVEZ 23132
+*
+*
  * Clase que implementa la interfaz de la licuadora
  */
 public class Blender implements IBlender {
